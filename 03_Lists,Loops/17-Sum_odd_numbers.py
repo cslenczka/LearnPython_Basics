@@ -35,4 +35,10 @@ def sum_odds(numbers):
 print('The sum of all odds is: ')
 print(sum_odds(odd_numbers))
 
+print('**********')
+
+import numpy as np 
+get_odd_numbers = np.array(arr)
+print("Using numpy, the odds in arr are: ")
+print(get_odd_numbers[get_odd_numbers % 2 != 0])
 
